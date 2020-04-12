@@ -1,0 +1,155 @@
+header {
+    color: black;
+    background-color: black;
+    height: 60px;
+}
+h4 a{
+    padding: 20px;
+    list-style-type: none;
+    float:left;
+    color: white;
+    text-decoration-line: none;
+}
+h4 li{
+    float:right;
+    list-style-type: none;
+    padding-right: 0;
+    color: white;
+}
+
+#personal{
+    list-style: none;
+    text-transform: uppercase;
+    text-align: right;
+}
+.down{display: block;
+    overflow: hidden;
+    list-style: none;
+    clear: both;
+}
+.down div{ display: none;
+    position: relative;
+    width: 120px;
+    transition: all 0.5s 0.1s;
+
+}
+#personal li:hover ul div {
+    display: block;
+    position: relative;
+}
+.down div li { padding: 0;
+    width: 100%;
+    background: #000000!important; }
+.leftContainer{
+    float:left;
+    height: 100%;
+    width: 300px;
+    left: 200px;
+}
+
+.leftContainer .titleSearch{
+    height: 100px;
+    margin-top: 20px;
+}
+
+.leftContainer .titleSearch input {
+    border: 2px  #7BA7AB;
+    border-radius: 5px;
+    color: #9E9C9C;
+}
+
+.leftContainer .titleSearch button, .filterDiv button{
+    top: 0;
+    right: 0;
+    background: #ccffde;
+    border-radius: 0 5px 5px 0;
+}
+
+.leftContainer .titleSearch button:before , .filterDiv button:before{
+
+    font-size: 20px;
+
+    color: #acb1f9;
+
+}
+.leftContainer .titleSearch button:before{
+    content: "搜索";
+}
+
+.filterDiv button:before{
+    content: "筛选"
+}
+
+.hotDiv{
+    height: 300px;
+}
+
+.filterDiv{
+    text-align: center;
+}
+
+.filterDiv select{
+    width: 70px;
+    margin: 20px;
+}
+.hotDiv{
+    display: block;
+}
+
+.hotDiv ul li{
+
+    display: list-item;
+
+    cursor: pointer;
+
+    padding: 8px 0;
+
+    border-top: 1px solid #e0e0e0;
+
+    list-style: none;
+    width: 78%;
+
+    line-height: 16px;
+
+}
+
+.hotDiv ul{
+
+    padding:0 32px 30px;
+
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+
+}
+
+.hotDiv span{
+
+    height: 60px;
+
+    line-height: 60px;
+
+    display: block;
+
+    font-size: larger;
+
+    color: #7BA7AB;
+
+}
+footer{
+    background-color: black;
+    height: 250px;
+}
+.col {
+    float: left;
+    color: #FFFFFF;
+    width: 15%;
+    height: 120px;
+    margin: 40px 5%;
+    text-align: center;
+}
+.copyright {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color: cornflowerblue;
+
+}

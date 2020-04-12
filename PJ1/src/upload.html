@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="gy">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>上传</title>
+    <link href="css/upload.css" rel="stylesheet" type="text/css">
+    <script type='text/javascript' src='../js/upload.js' charset='utf-8'></script>
+</head>
+<header>
+    <nav>
+        <h4>
+            <div class="topleft">
+                <a href="index.html" style="color: #66ccff">首页</a>
+                <a href="view.html">浏览</a>
+                <a href="search.html" >搜索页</a>
+            </div>
+        </h4>
+    </nav>
+    <div class="topright">
+        <h4>
+            <ul id="personal">
+                <li>个人中心
+                    <ul class="down">
+                        <div>
+                            <li><a href="load.html">登录</a></li>
+                            <li><a href="upload.html">上传</a></li>
+                            <li><a href="myphoto.html">我的照片</a></li>
+                            <li><a href="favor.html">我的收藏</a></li>
+                        </div>
+                    </ul>
+                </li>
+            </ul>
+        </h4>
+    </div>
+</header>
+<script type="text/javascript">
+    function display_alert(){
+        alert("Reload!")
+    }
+
+    </script>
+<body>
+<div class="main-top">
+
+    <div class="search-area">
+
+        <h4 class="search-title">上传</h4>
+
+        <form id="mainForm">
+            <div class="content">
+                <div class="img-area">
+                    <div class="container">
+                        <input type="file" id='id-face' name='face'  accept="image/*" />
+                        <div id='face-empty-result'>
+                            <img style='width:4rem' src="upload.html" alt="">
+
+                        </div>
+                        <img style='width: 100%' id='face-result'/>
+                    </div>
+
+
+                    <p id="test-file-info"></p>
+
+            <p>图片标题：</p>
+
+            <div class="search-line">
+
+                <input type="text" class="search-text" name="title-text">
+
+            </div>
+
+            <p>图片描述：</p>
+
+            <div class="search-line">
+
+                <textarea class="search-textarea" name="description-text"></textarea>
+
+            </div>
+
+            <p>拍摄国家：</p>
+
+            <div class="search-line">
+
+                <input type="text" class="search-text" name="title-text">
+
+            </div>
+
+            <p>拍摄城市：</p>
+
+            <div class="search-line">
+
+                <input type="text" class="search-text" name="title-text">
+
+            </div>
+
+            <br>
+
+            <input type="submit" id="search-submit" value="上传" onclick="location.href='myphoto.html'">
+
+    </div>
+
+</div>
+        </form>
+    </div>
+</div>
+<footer>
+    <div class="col">
+        <p><a>使用条款</a></p>
+        <p><a>隐私保护</a></p>
+        <p><a>Cookie</a></p>
+    </div>
+
+    <div class="col">
+        <p><a>关于</a></p>
+        <p><a>联系我们</a></p>
+    </div>
+    <div class="col">
+        <div>
+            <img src="../img/other/wechat.jpg" width="100px">
+        </div>
+    </div>
+    <div class="col"><img src="../img/other/xuenai.jpg" width="100px"></div>
+    <div class="copyright">
+        <p><a>Copyright © 2019-2021 SOFT130002 PJ1. All Rights Reserved. 备案号：Guoyuanyu19302010031</a></p>
+    </div>
+</footer>
+</body>
+</html>
